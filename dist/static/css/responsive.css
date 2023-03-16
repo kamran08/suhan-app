@@ -1,0 +1,26 @@
+/* Mobile */   
+@media only screen and (max-width: 765px) {
+._menu {
+    padding: 12px 0px;
+}
+
+} 
+/* Mobile */
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+
+}
+/* Ipad */
+
+/* Ipad pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+}
+/* Ipad pro */
+
+/* Desktop 1366 */
+@media only screen and (max-width: 1500px) {
+
+    
+}

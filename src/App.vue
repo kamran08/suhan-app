@@ -86,12 +86,12 @@
           <li>
               <router-link to="/about">About</router-link>
           </li>
-          <li>
+          <!-- <li>
               <router-link to="/support">Support</router-link>
           </li>
           <li>
               <router-link to="/donate">Donate</router-link>
-          </li>
+          </li> -->
           <li>
               <router-link to="/terms">Terms</router-link>
           </li>

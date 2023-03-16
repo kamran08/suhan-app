@@ -163,17 +163,17 @@
                     <div class="_home_contact_socail">
                         <ul class="_1menu_social">
                             <li>
-                                <a href=""><Icon type="logo-facebook" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100008317454360&mibextid=LQQJ4d"><Icon type="logo-facebook" /></a>
                             </li>
                             <li>
-                                <a href=""><Icon type="logo-linkedin" /></a>
+                                <a href="https://instagram.com/suhanchowdhury1997?igshid=YmMyMTA2M2Y="><Icon type="logo-instagram" /></a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href=""><Icon type="logo-twitter" /></a>
                             </li>
                             <li>
                                 <a href=""><Icon type="logo-youtube" /></a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>

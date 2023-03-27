@@ -1,8 +1,93 @@
 /* Mobile */   
 @media only screen and (max-width: 765px) {
-._menu {
-    padding: 12px 0px;
+/* common */
+._btn_large {
+    line-height: 50px !important;
+    height: 45px !important;
+    padding: 0px 25px !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
 }
+._1main_content {
+    padding-top: 60px;
+    min-height: calc(100vh - 175px);
+}
+/* common */
+
+/* menu */
+._mob_menu_nav {
+    display: block;
+}
+._mob_menu {
+    display: flex;
+}
+._1header {
+    display: none;
+}
+._1menu {
+    padding: 0px 13px;
+    background: #fff;
+    display: none;
+}
+/* menu */
+
+/* home */
+._1banner {
+    padding: 50px 0;
+}
+._1banner_title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+._1banner_subtitle {
+    font-size: 20px;
+    line-height: 31px;
+}
+._1banner_text {
+    line-height: 1.5;
+    font-size: 14px;
+    margin: 12px 0 20px;
+}
+._1home_services {
+    padding: 50px 0 30px;
+}
+._home_title {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+._1card_title {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+._1card_text {
+    font-size: 14px;
+    line-height: 20px;
+    min-height: inherit;
+}
+._home_contact_left {
+    max-width: 100%;
+    padding: 50px 12px;
+}
+._home_contact {
+    display: block;
+}
+._home_contact_text {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+._home_contact_right {
+    max-width: 100%;
+    padding: 50px 12px;
+}
+/* home */
+
+/* footer */
+._log_footer {
+    padding: 20px 12px 20px;
+}
+/* footer */
 
 } 
 /* Mobile */

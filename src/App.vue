@@ -76,6 +76,34 @@
       </div>
       <!-- Menu -->
 
+      <!-- Mobile menu -->
+      <div class="_mob_menu">
+        <div class="_mob_menu_logo">
+          <router-link to=""><img class="_mob_menu_logo_img" src="../static/img/logo.png" alt="logo" title="logo"></router-link>
+        </div>
+
+        <div class="_mob_menu_button">
+          <Icon @click="isOpen = true" class="_mob_menu_button_icon" type="md-list-box" />
+        </div>
+      </div>
+
+      <div :class="isOpen == true? '_mob_menu_nav_open _mob_menu_nav' : '_mob_menu_nav'">
+        <ul class="_1menu_logo_list">
+          <li>
+            <a  @click="isOpen = false" href="#" class="_1menu_logo_list_text _active">Home</a>
+          </li>
+          <li>
+            <a @click="isOpen = false" href="#1" class="_1menu_logo_list_text">Services</a>
+          </li>
+          <li>
+            <a @click="isOpen = false" href="#2" class="_1menu_logo_list_text">Contact us</a>
+          </li>
+        </ul>
+
+        <p @click="isOpen = false" class="_mob_menu_nav_close"><Icon type="md-close" /></p>
+      </div>
+      <!-- Mobile menu -->
+
       <div class="_main_layout">
         <router-view></router-view>
       </div>
@@ -114,7 +142,7 @@
 export default {
   data(){
     return{
-     
+      isOpen:false
     }
   },
 

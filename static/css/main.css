@@ -179,6 +179,7 @@
     font-size: 15px;
     color: var(--color);
     transition: .2s all ease;
+    text-decoration: none;
 }
 ._log_footer_list li a:hover{
     color: var(--color-hover);

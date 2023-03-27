@@ -30,6 +30,9 @@ body {
     font-size: 15px !important;
     line-height: 18px !important;
 }
+a{
+    text-decoration: none;
+}
 a:hover{
     text-decoration: none ;
 }

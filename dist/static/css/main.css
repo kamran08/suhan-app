@@ -42,7 +42,6 @@
     display: inline-block;
     padding-right: 32px;
 }
-/* ._1menu_logo_img{} */
 ._1menu_logo_img{
     width: 120px !important;
     height: 54px !important;
@@ -88,6 +87,74 @@
 ._1menu_social a:hover{
     color: var(--primary);
 }
+/* Mobile menu */
+._mob_menu {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 9px 12px;
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 13px 1px #0006;
+    display: none;
+}
+._mob_menu_logo {
+    flex: 0 0 auto;
+    overflow: hidden;
+}
+._mob_menu_logo_img {
+    height: 45px;
+    display: inline-block;
+}
+._mob_menu_button {
+    flex: 1 1;
+    text-align: right;
+}
+._mob_menu_button_icon {
+    font-size: 30px;
+}
+._mob_menu_nav {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    padding-top: 13px;
+    transition: .3s all ease;
+    top: 0;
+    left: 0;
+    display: none;
+    left: -100%;
+}
+._mob_menu_nav._mob_menu_nav_open {
+    left: 0;
+}
+._mob_menu_nav ._1menu_logo_list {
+    float: inherit;
+}
+._mob_menu_nav ._1menu_logo_list li {
+    display: block;
+}
+._mob_menu_nav ._1menu_logo_list_text._active {
+    border-bottom: 0px solid var(--primary);
+}
+._mob_menu_nav ._1menu_logo_list_text {
+    line-height: 40px;
+    padding: 0 12px;
+    display: block;
+}
+._mob_menu_nav_close {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    z-index: 1;
+    font-size: 19px;
+}
+/* Mobile menu */
 /*------ 1.Menu ------*/
 
 /*------ 2.Footer ------*/
@@ -112,6 +179,7 @@
     font-size: 15px;
     color: var(--color);
     transition: .2s all ease;
+    text-decoration: none;
 }
 ._log_footer_list li a:hover{
     color: var(--color-hover);
@@ -134,11 +202,9 @@
 /*------ 3.Home ------*/
 ._1banner{
     background-image: url('../img/service.png');
-    /* background-image: url('../img/banner.jpg'); */
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--secondary);
     padding: 80px 0;
 }
 ._1banner_title{
@@ -188,7 +254,8 @@
     padding: 18px 0 0;
 }
 ._1card:hover ._1card_title{
-    color:var(--primaivory)
+    color:var(--primaivory);
+    text-decoration: none;
 }
 ._1card_title{
     font-size: 18px;
@@ -196,9 +263,10 @@
     transition:.2s all ease;
     color: var(--color);
     margin: 0 0 14px;
-    text-transform: uppercase;
+    text-decoration: none;
 }
 ._1card_text{
+    text-decoration: none;
     color: var(--color3);
     font-size: 15px;
     line-height: 23px;
@@ -263,12 +331,4 @@
     color: var(--color3);
     margin: 0 0 24px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
 /*------ 3.Home ------*/

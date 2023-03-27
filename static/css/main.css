@@ -107,7 +107,8 @@
     overflow: hidden;
 }
 ._mob_menu_logo_img {
-    height: 45px;
+    height: auto;
+    width: 72px;
     display: inline-block;
 }
 ._mob_menu_button {
